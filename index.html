@@ -1,156 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/queries.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/queries.css" />
 
-    <!-- ICONS -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
+        <link rel="icon" href="./resources/fav-icon-180.png" />
+        // for browser tab
+        <link rel="apple-touch-icon" href="./resources/fav-icon-180.png" />
+        // for apple devices.
+        <link rel="manifest" href="./manifest.webmanifest" />
 
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-    ></script>
-    <script defer src="./script/script.js"></script>
-    <title>Simran Rawat</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo-div">
-        <img src="./resources/SimranLogo.png" alt="" class="logo-image" />
-      </div>
-      <div class="navigation">
-        <a href="#about-me" class="header-link">ABOUT</a>
-        <a href="#resume" class="header-link">RESUME</a>
-        <a href="#footer" class="header-link header-link-special"
-          >CONTACT <ion-icon class="icon" name="mail-outline"></ion-icon
-        ></a>
-      </div>
-    </header>
-    <main class="main">
-      <section class="about" id="about">
-        <div class="banner">
-          <div class="banner-text">
-            <h2 class="banner-sub-heading">hello there, my name is</h2>
-            <h1 class="banner-heading">SIMRAN RAWAT</h1>
-            <a
-              href="./resources/resume.pdf"
-              download="Simran-Resume"
-              class="banner-link"
-              ><ion-icon class="icon" name="document-outline"></ion-icon>
-              RESUME?</a
-            >
-          </div>
-        </div>
-        <div class="about-me" id="about-me">
-          <div class="generic-heading">
-            <div class="heading">ABOUT</div>
-            <div class="sub-heading">
-              I aspire to become a Front end web developer
+        <!-- ICONS -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule=""
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+        ></script>
+
+        <script
+            defer
+            src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+        ></script>
+        <script defer src="./script/script.js"></script>
+        <title>Simran Rawat</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo-div">
+                <img
+                    src="./resources/SimranLogo.png"
+                    alt=""
+                    class="logo-image"
+                />
             </div>
-          </div>
-
-          <p class="para">
-            Ever since I was young, I was very fascinated by Computer Science
-            and how all the concepts worked in conjunction with one another for
-            Computers to fully function. During my graduation years, I grew a
-            keen interest in web applications and Networking. I aspire to become
-            a Full-Stack web developer along with continuing my reaserch on Web
-            Technologies. I am familiar with JavaScript MEAN stack along with
-            knowledge of data structures and algorithms. I believe that the most
-            important aspect of programming and computer science is problem
-            solving and hence I put that ideology in every project and decision
-            I make. I hope u enjoy your stay :)
-          </p>
-          <a
-            href="./resources/resume.pdf"
-            download="Simran-Resume"
-            class="banner-link scos"
-            ><ion-icon class="icon" name="document-outline"></ion-icon>
-            RESUME</a
-          >
-        </div>
-      </section>
-      <section class="resume" id="resume"></section>
-    </main>
-    <footer class="footer" id="footer">
-      <div class="footer-div-special">
-        <div class="footer-logo-div">
-          <img
-            src="./resources/SimranLogo.png"
-            alt=""
-            class="logo footer-image"
-          />
-        </div>
-        <div class="social-icons">
-          <a
-            href="https://web.whatsapp.com/send?phone=+917534083907&text&app_absent=0"
-            class="no-default wa-wa"
-            target="_blank"
-          >
-            <div class="social-icon-div">
-              <ion-icon
-                name="logo-whatsapp"
-                class="footer-social-icon"
-              ></ion-icon>
+            <div class="navigation">
+                <a href="#about-me" class="header-link one">ABOUT</a>
+                <a href="#resume" class="header-link two">RESUME</a>
+                <a href="#footer" class="header-link header-link-special three"
+                    >CONTACT
+                    <ion-icon class="icon" name="mail-outline"></ion-icon
+                ></a>
             </div>
-          </a>
+        </header>
+        <main class="main">
+            <section class="about" id="about">
+                <div class="banner">
+                    <div class="banner-text">
+                        <div class="banner-div">
+                            <h2 class="banner-sub-heading">
+                                hello there, my name is
+                            </h2>
+                            <h1 class="banner-heading">SIMRAN RAWAT</h1>
+                        </div>
+                        <a
+                            href="./resources/resume.pdf"
+                            class="banner-link no-default"
+                            download="Simran-Rawat-Resume.pdf"
+                            ><ion-icon
+                                class="icon"
+                                name="document-outline"
+                            ></ion-icon>
+                            RESUME?</a
+                        >
+                    </div>
+                </div>
 
-          <a
-            href="https://www.linkedin.com/in/simran-rawat-953585211"
-            target="_blank"
-            class="no-default"
-          >
-            <div class="social-icon-div">
-              <ion-icon
-                name="logo-linkedin"
-                class="footer-social-icon"
-              ></ion-icon></div
-          ></a>
-          <a
-            href="https://github.com/Simran-Rawat"
-            class="no-default"
-            target="_blank"
-          >
-            <div class="social-icon-div">
-              <ion-icon
-                name="logo-github"
-                class="footer-social-icon"
-              ></ion-icon>
-            </div>
-          </a>
+                <div class="about-me" id="about-me">
+                    <div class="generic-heading">
+                        <div class="heading">ABOUT</div>
+                        <div class="sub-heading">
+                            I am a computer science student from Kashipur
+                        </div>
+                    </div>
 
-          <a
-            href="mailto:simmujas20@gmail.com?Subject=Hello :)"
-            class="no-default"
-            target="_blank"
-          >
-            <div class="social-icon-div">
-              <ion-icon name="mail" class="footer-social-icon"></ion-icon>
-            </div>
-          </a>
+                    <p class="para">
+                        I am a student pursuing MCA from Shri Guru Ram Rai
+                        University, Dehradun. I have done my graduation with a
+                        BSc. honors CS degree from the same university. I
+                        believe that Information Technology is the most dominant
+                        research field and hence I want to contribute to the
+                        same. I want to work in the field of web development and
+                        network-based technologies. I like challenging tasks and
+                        learning new skills. As my father was an Indian Navy
+                        person, I have traveled a lot and this has made me
+                        adaptive to all types of people. I hope you enjoy your
+                        stay here :)
+                    </p>
+                    <img src="./resources/bye.png" alt="" class="sticker" />
+                </div>
+                <div class="about-me" id="resume">
+                    <div class="generic-heading">
+                        <div class="heading aspirations">ASPIRATIONS</div>
+                        <div class="sub-heading">
+                            I aspire to become a Front end web developer
+                        </div>
+                    </div>
 
-          <a href="tel:+917534083907" class="no-default" target="_blank">
-            <div class="social-icon-div">
-              <ion-icon name="call" class="footer-social-icon"></ion-icon>
+                    <p class="para">
+                        Ever since I was young, I was very fascinated by
+                        Computer Science and how all the concepts worked in
+                        conjunction with one another for Computers to fully
+                        function. During my graduation years, I grew a keen
+                        interest in web applications and Networking. I aspire to
+                        become a Front-End web developer along with continuing
+                        my reaserch on Web Technologies. I am familiar with Java
+                        SE along with knowledge of HTML/CSS. I believe that the
+                        most important aspect of programming and computer
+                        science is problem solving and hence I put that ideology
+                        in every project and decision I make.
+                    </p>
+                    <a
+                        href="./resources/resume.pdf"
+                        class="banner-link scos no-default"
+                        download="Simran-Rawat-Resume.pdf"
+                        ><ion-icon
+                            class="icon"
+                            name="document-outline"
+                        ></ion-icon>
+                        RESUME</a
+                    >
+                    <img src="./resources/teach.png" alt="" class="sticker" />
+                </div>
+            </section>
+            <section class="resume" id="resume"></section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer-div-special">
+                <div class="footer-logo-div">
+                    <img
+                        src="./resources/SimranLogo.png"
+                        alt=""
+                        class="logo footer-image"
+                    />
+                </div>
+                <div class="social-icons">
+                    <a
+                        href="https://web.whatsapp.com/send?phone=+917534083907&text&app_absent=0"
+                        class="no-default wa-wa"
+                        target="_blank"
+                    >
+                        <div class="social-icon-div">
+                            <ion-icon
+                                name="logo-whatsapp"
+                                class="footer-social-icon"
+                                style="background-color: green"
+                            ></ion-icon>
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/simran-rawat-953585211"
+                        target="_blank"
+                        class="no-default"
+                    >
+                        <div class="social-icon-div">
+                            <ion-icon
+                                name="logo-linkedin"
+                                class="footer-social-icon"
+                                style="
+                                    background-color: rgba(0, 110, 255, 0.952);
+                                "
+                            ></ion-icon></div
+                    ></a>
+                    <a
+                        href="https://github.com/DARTzz"
+                        class="no-default"
+                        target="_blank"
+                    >
+                        <div class="social-icon-div">
+                            <ion-icon
+                                name="logo-github"
+                                class="footer-social-icon"
+                            ></ion-icon>
+                        </div>
+                    </a>
+
+                    <a
+                        href="mailto:simmujas20@gmail.com?Subject=Hello :)"
+                        class="no-default"
+                        target="_blank"
+                    >
+                        <div class="social-icon-div">
+                            <ion-icon
+                                name="mail"
+                                class="footer-social-icon"
+                                style="background-color: red"
+                            ></ion-icon>
+                        </div>
+                    </a>
+
+                    <a
+                        href="tel:+917534083907"
+                        class="no-default"
+                        target="_blank"
+                    >
+                        <div class="social-icon-div">
+                            <ion-icon
+                                name="call"
+                                class="footer-social-icon"
+                                style="background-color: purple"
+                            ></ion-icon>
+                        </div>
+                    </a>
+                </div>
             </div>
-          </a>
-        </div>
-      </div>
-      <div class="footer-text">
-        <span class="footer-text-span">Simran Rawat</span>, Kashipur, Udham
-        Singh Nagar, Uttrakhand, 244713
-      </div>
-    </footer>
-  </body>
+            <div class="footer-text">
+                <span class="footer-text-span">Simran Rawat</span>, Kashipur,
+                Udham Singh Nagar, Uttrakhand
+            </div>
+        </footer>
+    </body>
 </html>
