@@ -6,6 +6,7 @@
         gap: 1rem;
     }
 }
+/*hello world*/
 @media (max-width: 800px) {
     .navigation {
         width: 70%;
