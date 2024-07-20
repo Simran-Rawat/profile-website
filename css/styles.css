@@ -1,5 +1,6 @@
 /* General Quesries */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +13,7 @@ html {
     font-size: 62.5%;
 }
 
+/*my name is bruno*/
 *:focus {
     outline: none;
     box-shadow: 0 0 0 0.3rem red;
@@ -40,11 +42,13 @@ html {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
 .navigation {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
 }
+
 .header-link {
     color: rgba(0, 0, 0, 0.774);
     text-decoration: none;
@@ -54,11 +58,13 @@ html {
     border-radius: 1rem;
     transition: all 0.1s ease 0s;
 }
+
 .header-link:hover {
     background-color: grey;
     color: white;
     transition: all 0.1s ease 0s;
 }
+
 .header-link-special {
     color: white;
     background-color: #264653;
@@ -74,14 +80,17 @@ html {
     align-items: center;
     gap: 1rem;
 }
+
 .header-link-special:hover {
     background-color: white;
     color: #264653;
     transition: all 0.1s ease 0s;
 }
+
 .logo-image {
     width: 80%;
 }
+
 .banner {
     width: 100vw;
     height: 100vh;
@@ -91,6 +100,7 @@ html {
     justify-content: center;
     align-items: center;
 }
+
 .banner-text {
     display: flex;
     width: 100%;
@@ -101,6 +111,7 @@ html {
     gap: 6rem;
     padding: 2rem;
 }
+
 .banner-div {
     display: flex;
     flex-direction: column;
@@ -108,6 +119,7 @@ html {
     align-items: center;
     gap: 1rem;
 }
+
 .banner-sub-heading {
     color: rgba(255, 255, 255, 0.671);
     text-align: center;
@@ -115,6 +127,7 @@ html {
     font-size: 2rem;
     width: 100%;
 }
+
 .banner-heading {
     width: 100%;
     font-size: 8rem;
@@ -122,6 +135,7 @@ html {
     color: white;
     font-weight: 700;
 }
+
 .banner-link {
     text-decoration: none;
     color: white;
@@ -151,9 +165,11 @@ html {
     padding-right: 5rem;
     padding-left: 5rem;
 }
+
 .generic-heading {
     width: 100%;
 }
+
 .heading {
     color: white;
     background-color: red;
@@ -165,9 +181,11 @@ html {
     width: 100%;
     border-top-left-radius: 5rem;
 }
+
 .aspirations {
     background-color: #264653;
 }
+
 .sub-heading {
     color: rgba(0, 0, 0, 0.671);
     width: 100%;
@@ -175,6 +193,7 @@ html {
     font-size: 2rem;
     font-weight: 700;
 }
+
 .para {
     color: black;
     width: 100%;
@@ -183,14 +202,17 @@ html {
     padding-left: 20rem;
     font-weight: 500;
 }
+
 .scos {
     background-color: #023047;
     outline-color: #023047;
 }
+
 .sticker {
     margin: auto 0;
     margin-top: 2rem;
 }
+
 .footer {
     margin-top: 5rem;
     background-color: black;
@@ -208,6 +230,7 @@ html {
     outline-color: white;
     outline-width: 1px;
 }
+
 .footer-div-special {
     width: 80%;
     display: flex;
@@ -215,6 +238,7 @@ html {
     align-items: center;
     gap: 5rem;
 }
+
 .social-icons {
     display: flex;
     text-decoration: none;
@@ -224,6 +248,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .footer-social-icon {
     text-decoration: none;
     color: white;
@@ -232,10 +257,12 @@ html {
     padding: 0.5rem;
     border-radius: 555px;
 }
+
 .footer-text {
     color: white;
     font-size: 1.5rem;
 }
+
 .footer-text-span {
     color: red;
 }
